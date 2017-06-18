@@ -1,0 +1,198 @@
+
+ @font-face { font-family: Delicious; src: url('WildernessTypeface-Regular.ttf'); } 
+
+
+body {
+	background-color: white;
+	background-image: url("tomato.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	text-align: center;
+	padding-top: 20px;
+	color: #B23914;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	font-family: WildernessTypeface-Regular, sans-serif;
+	font-size: 50px;
+}
+span {
+	font-weight: bold;
+}
+
+h3 {
+	margin-left: 40px;
+}
+
+#headingimg{
+	width: 50%;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	padding: 10px; 
+	border: 2px black dashed;
+
+
+
+}
+
+#menu{
+	width: 200px;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px dashed #B23914;
+
+}
+
+#menu ul{
+	width: 200px;
+	margin: 0px;
+	padding: 8px 0px;
+	list-style-type: none;
+	
+	
+}
+
+#menu li{
+	display: inline;
+	text-decoration: none;
+	padding: 5px;
+
+}
+
+#menu a{
+	color:#ff5c33;
+	font-variant-caps: small-caps;
+	letter-spacing: 4px;
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: #8C2100; 
+}
+
+#backk {
+	background-image: url("pbground.jpg");
+
+
+}
+
+.entry{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+	width: 350px;
+	height: 250px;
+	text-align: center;
+	border:2px dashed gray;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.entry img {
+	width: 250px;
+	height: 150px;
+	padding: 3px;
+	display: block;
+	border: solid 3px white;
+
+
+}
+
+
+
+.entry img:hover {
+	border: solid 3px white;
+	opacity: 0.6;
+}
+
+.entry a {
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+	text-decoration: none;
+	color:darkgreen;
+	letter-spacing: 2px;
+}
+
+.entry p{
+	display: inline-block;
+	padding: 4px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+.infobody {
+	
+	width: 80%;
+	display: inline-flex;
+	margin-top: 500px;
+	margin-bottom: 500px;
+	margin-right: 100px;
+	margin-left: 100px;
+	justify-content: center;
+}
+
+.piebody {
+	
+	padding: 50px;
+	border:1px solid black;
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: white;
+
+	
+
+}
+
+.piebody p {
+	text-align: center;
+}
+
+.piebody ul {
+	display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.piebody ol {
+	display: table;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.piebody h2{
+	text-align: center;
+}
+
+.piebody img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+#piehead {
+	width: 60%;
+	background-color: #fff5cc;
+	margin:0 auto;
+	padding: 50px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+
+
+}
+
